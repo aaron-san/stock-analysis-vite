@@ -35,3 +35,7 @@ git subtree push --prefix dist origin gh-pages
 ```
 
 <!-- git push --set-upstream origin master -->
+
+npm install axios
+npm install cors
+npm install mongoose
