@@ -25,7 +25,7 @@ git commit -m "message"
 git push
 ```
 
-**Github Pages**
+**Push to Github Pages**
 
 ```bash
 npm run build

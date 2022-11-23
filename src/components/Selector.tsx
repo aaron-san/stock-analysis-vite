@@ -28,7 +28,7 @@ function InvestingApp() {
       <select
         id="selectStock"
         onChange={handleChange}
-        className="mx-2 px-2 bg-red-300"
+        className="m-2 px-2 py-1 bg-slate-200 text-slate-600"
       >
         {options.map((option: IOptions) => {
           return (
@@ -38,7 +38,7 @@ function InvestingApp() {
           );
         })}
       </select>
-      <p className="text-red-300">{stock}</p>
+      <p className="text-slate-100">{stock}</p>
     </div>
   );
 }
